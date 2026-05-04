@@ -142,7 +142,7 @@ $mcpServers = @(
     @{ name = "deepwiki"; cmd = "npx"; pkg = "deepwiki-mcp"; args = @(); category = "Core" },
 
     # === DATABASE SERVER (PostgreSQL - VERIFIED WORKING!) ===
-    @{ name = "postgres"; cmd = "npx"; pkg = "@modelcontextprotocol/server-postgres"; args = @("postgresql://raz%40tovtech.org:CaptainForgotCreatureBreak@45.148.28.196:5432/TovPlay"); category = "Database" }
+    @{ name = "postgres"; cmd = "npx"; pkg = "@modelcontextprotocol/server-postgres"; args = @("postgresql://<REDACTED_TOVTECH_DB_URL>"); category = "Database" }
 
     # === REMOVED NON-WORKING SERVERS ===
     # These packages DO NOT EXIST in npm registry or fail to connect:

@@ -138,7 +138,7 @@ $serverRegistry = @{
         }
         "postgres" = @{
             "command" = "npx"
-            "args" = @("@modelcontextprotocol/server-postgres", "postgresql://raz%40tovtech.org:CaptainForgotCreatureBreak@45.148.28.196:5432/TovPlay")
+            "args" = @("@modelcontextprotocol/server-postgres", "postgresql://<REDACTED_TOVTECH_DB_URL>")
             "env" = @{}
         }
         "mongodb" = @{

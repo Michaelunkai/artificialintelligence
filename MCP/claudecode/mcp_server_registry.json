@@ -1,4 +1,4 @@
-﻿{
+{
     "servers":  {
                     "tavily":  {
                                    "args":  [
@@ -23,7 +23,7 @@
                     "postgres":  {
                                      "args":  [
                                                   "@modelcontextprotocol/server-postgres",
-                                                  "postgresql://raz%40tovtech.org:CaptainForgotCreatureBreak@45.148.28.196:5432/TovPlay"
+                                                  "postgresql://<REDACTED_TOVTECH_DB_URL>"
                                               ],
                                      "env":  {
 

@@ -20,8 +20,8 @@ claude mcp add --scope user memory -- npx @modelcontextprotocol/server-memory
 claude mcp add --scope user sequential-thinking -- npx @modelcontextprotocol/server-sequential-thinking
 
 # --- Database Servers ---
-claude mcp add --scope user postgres -- npx @modelcontextprotocol/server-postgres "postgresql://raz%40tovtech.org:CaptainForgotCreatureBreak@45.148.28.196:5432/TovPlay"
-claude mcp add --scope user postgres-enhanced -- npx enhanced-postgres-mcp-server "postgresql://raz%40tovtech.org:CaptainForgotCreatureBreak@45.148.28.196:5432/TovPlay"
+claude mcp add --scope user postgres -- npx @modelcontextprotocol/server-postgres "postgresql://<REDACTED_TOVTECH_DB_URL>"
+claude mcp add --scope user postgres-enhanced -- npx enhanced-postgres-mcp-server "postgresql://<REDACTED_TOVTECH_DB_URL>"
 claude mcp add --scope user mongodb -- npx -y mongodb-mcp-server
 
 # --- Web/Browser Servers ---
